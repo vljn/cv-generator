@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 2em;
+  font-family: Josefin slab, serif;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.right {
+  font-weight: 500;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.lang-input input {
+  display: none;
+}
+
+.lang-input label {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.lang-input label:hover {
+  text-decoration: underline;
+}

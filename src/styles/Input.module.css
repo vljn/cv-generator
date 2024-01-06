@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.label::after {
+  content: ':';
+}
+
+.input {
+  background-color: var(--primary-dark);
+  border-radius: 5px;
+  outline: none;
+  border: 2px transparent solid;
+  padding: 0.3em 0.5em;
+  color: var(--primary-content);
+  transition: border 0.3s linear;
+  font-size: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+}
+
+.input:focus {
+  border: 2px var(--primary-darker) solid;
+}
+
+.wrapper textarea {
+  resize: none;
+  outline: none;
+  border: 2px var(--primary-dark) solid;
+  background-color: var(--primary);
+  border-radius: 5px;
+  color: var(--primary-content);
+  padding: 0.5em 1em;
+  font-family: Montserrat, sans;
+  transition: border-color 0.3s linear;
+}
+
+.wrapper textarea:focus {
+  border-color: var(--primary-darker);
+}

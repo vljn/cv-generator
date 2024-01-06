@@ -1,0 +1,42 @@
+.paper {
+  max-width: 21cm;
+  max-height: 29.7cm;
+  background-color: white;
+  margin: 0 auto;
+  transform: translateY(-3em);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2em 3em;
+  box-sizing: border-box;
+  aspect-ratio: 1 / 1.41;
+}
+
+.paper > h1 {
+  text-transform: uppercase;
+  border-bottom: 2px black solid;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts > div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-right: 2em;
+}
+
+.item {
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+  margin-top: 24px;
+}
+
+.item p {
+  word-wrap: break-word;
+  text-align: justify;
+}

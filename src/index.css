@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;700&family=Montserrat:wght@300;400;500;600&display=swap');
+:root {
+  --primary: #59788e;
+  --primary-content: #f0f3f6;
+  --primary-dark: #455d6f;
+  --primary-darker: #232f39;
+
+  font-family: Montserrat, sans-serif;
+  color: var(--primary-content);
+  background-color: #eff0f1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,33 @@
+.fieldset {
+  border: 3px var(--primary-dark) solid;
+  border-radius: 10px;
+  padding: 0.5em 1.5em 1em 1.5em;
+  transition: border-color 0.5s;
+}
+
+.fieldset legend {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.fieldset legend::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-content);
+  height: 2px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: left;
+}
+
+.fieldset:hover legend::after {
+  transform: scaleX(1);
+}
+
+.fieldset:hover {
+  border-color: var(--primary-darker);
+}
